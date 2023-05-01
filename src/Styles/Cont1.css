@@ -1,0 +1,83 @@
+.Cont1{
+    display: flex;
+    justify-content: space-around;
+    padding: 4.5%;
+}
+
+.Habilidades, .presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.presentacion p{
+    max-width: 80%;
+    font-size: 22px;
+    color: #c0c0c0eb;
+}
+
+.presentacion p b{
+    font-size: 50px;
+    color: #864879;
+    text-decoration: underline;
+}
+.Cont1{
+    background-color: #1a182b;
+}
+.Habilidades{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #864879;
+    
+}
+
+.Habilidad{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #c0c0c0eb;
+    font-size: 35px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 100px;
+    gap: 30px;
+    
+}
+.icon{
+    color: #fff;
+    font-size: 40px;
+}
+
+.Habilidad:hover{
+    color: #fff;
+}
+
+.Habilidades b{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:550px) {
+    .Cont1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .presentacion, .Habilidades{
+    width: 100%;
+    }
+
+    .presentacion p{
+        max-width: 90%;
+        font-size: 20px;
+    }
+    .presentacion p b, .Habilidades b{
+        font-size: 32px;
+    }
+    .Habilidades{
+        padding-top: 25px;
+    }
+    .Habilidad{
+        font-size: 28px;
+    }
+}

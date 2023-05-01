@@ -1,0 +1,88 @@
+
+/* contenedor de la presentacion */
+.Presentation{
+    color: #fff;
+    background-color: #1F1D36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    padding: 5%;
+}
+/* Nombre animado */
+.Name{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 27ch;
+
+    animation: typing 2s steps(27),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing{
+    from {width: 0;}
+
+}
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+/* Imagen de perfil */
+.Prolife_picture img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Description p{
+    display: flex;
+    max-width: 450px;
+    font-size: 20px;
+    color: #c0c0c0eb;
+
+}
+.Description{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+/* Contacto ------------------------------------- */
+/* Contenedor general */
+.Contact{
+    padding-top: 5px;
+    font-size: 35px;
+}
+
+
+/* Iconos de contacto */
+.Contact i{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.Contact p{
+    font-size: 35px;
+}
+
+.Contact-link{
+    color: #c0c0c0eb;
+}
+.Contact-link:hover{
+    color: #ffffff;
+}
+
+@media screen and (max-width:550px) {
+    .Description p{
+        max-width: 250px;
+    }
+    .Name{
+        font-size: 25px;
+    }
+}
+

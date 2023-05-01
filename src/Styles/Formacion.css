@@ -1,0 +1,71 @@
+.Curso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a182b;
+    width: 250px;
+    border-radius: 30px;
+    border: 3px solid #864879;
+    padding: 15px;
+    gap: 30px;
+    transition: .8s;
+}
+.Descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* gap: 10px; */
+}
+
+
+.Descripcion_tx{
+    font-size: 15px;
+    color: #c0c0c0eb;
+}
+
+.Cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F1D36;
+    padding: 5%;
+}
+.Formacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F1D36;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.Formacion_tx{
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: #864879;
+    text-decoration: underline;
+}
+
+
+.Icon_Curso{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.nombre{
+    color: #fff;
+    font-size: 30px;
+}
+
+.Fecha{
+    color: #c0c0c0eb;
+}
+
+.Curso:hover{
+    width: 350px;
+    background-color: #26243b;
+}

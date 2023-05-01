@@ -1,0 +1,59 @@
+.Menu{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
+    background-color: rgba(48, 42, 115, 0.2);
+    box-shadow: 5px 5px 5px rgba(48, 42, 115, .2);
+}
+
+.Titulo{
+    display: flex;
+    width: 80px;
+    height: 60px;
+    color: #fff;
+    gap: 10px;
+}
+i{
+    font-size: 30px;
+    display: inline-block;
+    
+}
+
+
+h1{
+    font-size: 30px;
+}
+
+.Titulo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.botones{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    gap: 30px;
+}
+
+.botones a{
+    font-size:  25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.botones a:hover{
+    text-shadow: 5px 0px 10px rgba(255, 255, 255, .2)
+}
+
+@media screen and (max-width:550px) {
+    .Menu{
+        display: none;
+    }
+}
