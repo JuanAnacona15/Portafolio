@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.1ebef8e5.css",
-    "main.js": "/Portafolio/static/js/main.c794ecba.js",
+    "main.css": "/Portafolio/static/css/main.0f0e8944.css",
+    "main.js": "/Portafolio/static/js/main.3a2d0dfa.js",
     "static/media/arduino.png": "/Portafolio/static/media/arduino.51319eb1c9d57bd3dd28.png",
     "static/media/VisualStudio.png": "/Portafolio/static/media/VisualStudio.e66400756ccbdbfc0b31.png",
     "static/media/Prolife_Picture.png": "/Portafolio/static/media/Prolife_Picture.028ba7e031b36785d8e9.png",
@@ -15,11 +15,11 @@
     "static/media/react_logo.png": "/Portafolio/static/media/react_logo.c5b42c954b9eb840f3f6.png",
     "static/media/GPT3.png": "/Portafolio/static/media/GPT3.e6ccdb5b9183f538a51c.png",
     "index.html": "/Portafolio/index.html",
-    "main.1ebef8e5.css.map": "/Portafolio/static/css/main.1ebef8e5.css.map",
-    "main.c794ecba.js.map": "/Portafolio/static/js/main.c794ecba.js.map"
+    "main.0f0e8944.css.map": "/Portafolio/static/css/main.0f0e8944.css.map",
+    "main.3a2d0dfa.js.map": "/Portafolio/static/js/main.3a2d0dfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ebef8e5.css",
-    "static/js/main.c794ecba.js"
+    "static/css/main.0f0e8944.css",
+    "static/js/main.3a2d0dfa.js"
   ]
 }
