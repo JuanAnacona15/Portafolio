@@ -45,6 +45,7 @@
     }
     .Herramienta{
         font-size: 15px;
+        padding: 5px;
     }
     .Herramientas b{
         font-size: 32px;
@@ -52,6 +53,6 @@
     .mostrario{
         display: flex;
         justify-content: center;
-        gap: 30px;
+        gap: 5%;
     }
 }

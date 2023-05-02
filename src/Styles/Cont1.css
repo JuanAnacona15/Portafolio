@@ -1,7 +1,6 @@
 .Cont1{
     display: flex;
     justify-content: space-around;
-    padding: 4.5%;
 }
 
 .Habilidades, .presentacion{
@@ -28,19 +27,18 @@
     display: flex;
     justify-content: center;
     font-size: 50px;
+    padding-bottom: 50px;
     color: #864879;
     
 }
 
 .Habilidad{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    align-items: flex-start;
     color: #c0c0c0eb;
     font-size: 35px;
-    width: 100%;
     padding: 10px;
-    padding-left: 100px;
+    padding-left: 40px;
     gap: 30px;
     
 }

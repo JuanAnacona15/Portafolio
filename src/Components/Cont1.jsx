@@ -17,11 +17,14 @@ export function Presentation(){
             </div>
             <div className="Habilidades">
                 <b>Habilidades</b>
-                {habilidad("-Trabajo en equipo", "icon fa-solid fa-users")}
-                {habilidad("-Dedicacion", "icon fa-solid fa-person-digging")}
-                {habilidad("-Aprendizaje rapido", "icon fa-solid fa-user-graduate")}
-                {habilidad("-Logica", "icon fa-solid fa-book-open-reader")}
-                {habilidad("-Explicacion", "icon fa-solid fa-person-chalkboard")}
+                <div className='Cont_Habilidades'>
+                    {habilidad("-Trabajo en equipo", "icon fa-solid fa-users")}
+                    {habilidad("-Dedicacion", "icon fa-solid fa-person-digging")}
+                    {habilidad("-Aprendizaje rapido", "icon fa-solid fa-user-graduate")}
+                    {habilidad("-Logica", "icon fa-solid fa-book-open-reader")}
+                    {habilidad("-Explicacion", "icon fa-solid fa-person-chalkboard")}
+                </div>
+
             </div>
         </div>
     );
