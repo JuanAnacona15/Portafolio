@@ -9,8 +9,8 @@ export function Menu(){
             </div>
             <div className='botones'>
                 <a href='#Inicio'>Inicio</a>
-                <a href='#Presentacion'>Presentacion</a>
-                <a href='#Formacion'>Formacion</a>
+                <a href='#Presentacion'>Presentación</a>
+                <a href='#Formacion'>Formación</a>
             </div>
     </div>
     );

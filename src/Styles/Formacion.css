@@ -17,7 +17,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* gap: 10px; */
 }
 
 
@@ -66,14 +65,15 @@
     color: #c0c0c0eb;
 }
 
-.Curso:hover{
-    width: 350px;
-    background-color: #26243b;
-}
-
-@media screen and (max-width:550px){
-    .Curso:hover{
+@media screen and (max-width:1200px) {
+    .Curso{
+        width: 450px;
+    }
+    @media screen and (max-width:550px) {
+    .Curso{
         width: 80%;
-        background-color: #26243b;
+        height: auto;
+    }
     }
 }
+

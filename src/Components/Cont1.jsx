@@ -5,7 +5,7 @@ export function Presentation(){
     return(
         <div className="Cont1" id='Presentacion'>
             <div className="presentacion">
-                <p><b>Presentacion:</b><br></br><br></br>
+                <p><b>Presentación:</b><br></br><br></br>
                     Soy un desarrollador de software apasionado por la ciencia, la tecnología y el diseño. Busco desafíos para 
                     mejorar mis habilidades y conocimientos, y tengo una gran capacidad para aprender rápidamente. Además de mi 
                     experiencia en programación, tengo conocimientos en diseño 3D y electrónica.
@@ -19,10 +19,10 @@ export function Presentation(){
                 <b>Habilidades</b>
                 <div className='Cont_Habilidades'>
                     {habilidad("-Trabajo en equipo", "icon fa-solid fa-users")}
-                    {habilidad("-Dedicacion", "icon fa-solid fa-person-digging")}
+                    {habilidad("-Dedicación", "icon fa-solid fa-person-digging")}
                     {habilidad("-Aprendizaje rapido", "icon fa-solid fa-user-graduate")}
                     {habilidad("-Logica", "icon fa-solid fa-book-open-reader")}
-                    {habilidad("-Explicacion", "icon fa-solid fa-person-chalkboard")}
+                    {habilidad("-Explicación", "icon fa-solid fa-person-chalkboard")}
                 </div>
 
             </div>

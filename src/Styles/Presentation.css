@@ -16,7 +16,7 @@
     white-space: nowrap;
     border-right: 4px solid;
     width: 27ch;
-
+    font-size: 30px;
     animation: typing 2s steps(27),
     blink .5s infinite step-end alternate;
     overflow: hidden;
@@ -28,6 +28,12 @@
 @keyframes blink{
     50% {border-color: transparent;}
 }
+
+profecion{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
 /* Imagen de perfil */
 .Prolife_picture img{
     width: 150px;

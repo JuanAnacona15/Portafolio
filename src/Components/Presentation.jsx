@@ -8,9 +8,10 @@ export function Head(){
                 <img src={Prolife_Picture}></img>
             </div>
             <div className='Description'>
-                <h1 className='Name'>Juan Manuel Anacona Morales</h1>
+                <nombre className='Name'>Juan Manuel Anacona Morales</nombre>
+                <profecion>Desarrollador Software</profecion>
                 <p>
-                    Una persona apasionada por la ciencia y la tecnología y cómo estas pueden trabajar de la mano para cambiar el mundo, 
+                    Una persona apasionada por la ciencia, la tecnología y cómo estas pueden trabajar de la mano para cambiar el mundo, 
                     con una gran habilidad en el desarrollo de software y aportando ideas innovadoras que puedan beneficiar al mundo.
                 </p>
                 {Contact()}
