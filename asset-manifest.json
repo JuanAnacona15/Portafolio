@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.0f0e8944.css",
-    "main.js": "/Portafolio/static/js/main.3a2d0dfa.js",
+    "main.css": "/Portafolio/static/css/main.7288e0be.css",
+    "main.js": "/Portafolio/static/js/main.30415e77.js",
     "static/media/arduino.png": "/Portafolio/static/media/arduino.51319eb1c9d57bd3dd28.png",
     "static/media/VisualStudio.png": "/Portafolio/static/media/VisualStudio.e66400756ccbdbfc0b31.png",
-    "static/media/Prolife_Picture.png": "/Portafolio/static/media/Prolife_Picture.028ba7e031b36785d8e9.png",
     "static/media/HTML.png": "/Portafolio/static/media/HTML.c4d9c8dcdf4078875355.png",
+    "static/media/Prolife_Picture.png": "/Portafolio/static/media/Prolife_Picture.1365bf8573d0c5bbbc3a.png",
     "static/media/CSS.png": "/Portafolio/static/media/CSS.8d0eb532522f156e2da6.png",
     "static/media/Escudo IETI web.png": "/Portafolio/static/media/Escudo IETI web.33cfae269d79e6ba5337.png",
     "static/media/AUD.png": "/Portafolio/static/media/AUD.efa3727a4f28ac38ad55.png",
@@ -15,11 +15,11 @@
     "static/media/react_logo.png": "/Portafolio/static/media/react_logo.c5b42c954b9eb840f3f6.png",
     "static/media/GPT3.png": "/Portafolio/static/media/GPT3.e6ccdb5b9183f538a51c.png",
     "index.html": "/Portafolio/index.html",
-    "main.0f0e8944.css.map": "/Portafolio/static/css/main.0f0e8944.css.map",
-    "main.3a2d0dfa.js.map": "/Portafolio/static/js/main.3a2d0dfa.js.map"
+    "main.7288e0be.css.map": "/Portafolio/static/css/main.7288e0be.css.map",
+    "main.30415e77.js.map": "/Portafolio/static/js/main.30415e77.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f0e8944.css",
-    "static/js/main.3a2d0dfa.js"
+    "static/css/main.7288e0be.css",
+    "static/js/main.30415e77.js"
   ]
 }
