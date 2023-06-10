@@ -1,7 +1,7 @@
 import '../Styles/Tools.css'
 import VS from '../Imagenes/VisualStudio.png'
 import Arduino from '../Imagenes/arduino.png'
-import Exel from '../Imagenes/exel.png'
+import Excel from '../Imagenes/excel.png'
 import React_Icon from '../Imagenes/react_logo.png'
 import Java from '../Imagenes/java.png'
 import GitHub from '../Imagenes/git.png'
@@ -20,7 +20,7 @@ export function Herramientas(){
                 <Herramienta texto="Visual Studio Code" imagen={VS}></Herramienta>
                 <Herramienta texto="Arduino" imagen={Arduino}></Herramienta>
                 <Herramienta texto="Blender" imagen={Blender}></Herramienta>
-                <Herramienta texto="Exel" imagen={Exel}></Herramienta>
+                <Herramienta texto="Excel" imagen={Excel}></Herramienta>
                 <Herramienta texto="React" imagen={React_Icon}></Herramienta>
                 <Herramienta texto="Java" imagen={Java}></Herramienta>
                 <Herramienta texto="GitHub" imagen={GitHub}></Herramienta>

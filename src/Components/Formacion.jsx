@@ -29,7 +29,7 @@ export function Formacion(){
             img={IETI} nombre="Taller de desarrollo softwhare del IETI" 
             Date="Cursando" 
                 Description="En el taller de desarrollo de softwhare de la institucion educativa tecnico industrial
-                aprendemos el los fundamentos de programacion asi como una introduccion al mundo de la informatica, 
+                aprendemos los fundamentos de programacion asi como una introduccion al mundo de la informatica, 
                 tratamos temas como la logica de programacion, tipos de programacion, diseños de aplicaciones, estructuracion
                 de proyectos, documentacion y educacion en el campo laboral">  
             </Curso>
