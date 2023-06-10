@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.7288e0be.css",
-    "main.js": "/Portafolio/static/js/main.30415e77.js",
+    "main.js": "/Portafolio/static/js/main.70f474f1.js",
     "static/media/arduino.png": "/Portafolio/static/media/arduino.51319eb1c9d57bd3dd28.png",
     "static/media/VisualStudio.png": "/Portafolio/static/media/VisualStudio.e66400756ccbdbfc0b31.png",
-    "static/media/HTML.png": "/Portafolio/static/media/HTML.c4d9c8dcdf4078875355.png",
     "static/media/Prolife_Picture.png": "/Portafolio/static/media/Prolife_Picture.1365bf8573d0c5bbbc3a.png",
-    "static/media/CSS.png": "/Portafolio/static/media/CSS.8d0eb532522f156e2da6.png",
     "static/media/Escudo IETI web.png": "/Portafolio/static/media/Escudo IETI web.33cfae269d79e6ba5337.png",
+    "static/media/react_logo.png": "/Portafolio/static/media/react_logo.4127b36258b5e9dc8f88.png",
     "static/media/AUD.png": "/Portafolio/static/media/AUD.efa3727a4f28ac38ad55.png",
+    "static/media/java.png": "/Portafolio/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/GITI.png": "/Portafolio/static/media/GITI.2cdb2311673b7c26a591.png",
-    "static/media/exel.png": "/Portafolio/static/media/exel.3ab8b4609834b6c7ee58.png",
-    "static/media/java.png": "/Portafolio/static/media/java.f5dd86c3ef6ef3f85acf.png",
-    "static/media/react_logo.png": "/Portafolio/static/media/react_logo.c5b42c954b9eb840f3f6.png",
+    "static/media/git.png": "/Portafolio/static/media/git.a855c3975c028d8069f5.png",
+    "static/media/excel.png": "/Portafolio/static/media/excel.f7ad53809690a1807fa6.png",
+    "static/media/HTML.png": "/Portafolio/static/media/HTML.6e930594286d8afe4c79.png",
     "static/media/GPT3.png": "/Portafolio/static/media/GPT3.e6ccdb5b9183f538a51c.png",
+    "static/media/CSS.png": "/Portafolio/static/media/CSS.463e319bad8e0edf1ef7.png",
     "index.html": "/Portafolio/index.html",
     "main.7288e0be.css.map": "/Portafolio/static/css/main.7288e0be.css.map",
-    "main.30415e77.js.map": "/Portafolio/static/js/main.30415e77.js.map"
+    "main.70f474f1.js.map": "/Portafolio/static/js/main.70f474f1.js.map"
   },
   "entrypoints": [
     "static/css/main.7288e0be.css",
-    "static/js/main.30415e77.js"
+    "static/js/main.70f474f1.js"
   ]
 }
