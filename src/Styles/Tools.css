@@ -23,6 +23,23 @@
 .Herramienta img{
     width: 50px;
     height: 50px;
+    
+}
+
+.Herramienta img:hover{
+    transform: rotateZ(20deg);
+}
+
+@keyframes onda {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-2px);
+    }
+    100% {
+      transform: translateY(0);
+    }
 }
 
 .Herramienta{
@@ -31,12 +48,14 @@
     align-items: center;
     font-size: 20px;
     color: #c0c0c0eb;
+    border-radius: 50%;
+    animation: onda 2s ease-in-out infinite;
     transition: .5s;
 }
 
-.Herramienta img:hover{
-    transform: rotateZ(20deg);
-}
+.Herramienta:nth-child(2n+1) {
+    animation-delay: 1s;
+  }
 
 @media screen and (max-width:550px){
     .Herramienta img{

@@ -2,7 +2,7 @@
 /* contenedor de la presentacion */
 .Presentation{
     color: #fff;
-    background-color: #1F1D36;
+    animation: cambioColor 10s ease-in-out infinite;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,6 +10,21 @@
     padding-top: 65px;
     gap: 5px;
 }
+
+@keyframes cambioColor {
+    0% {
+      background-color: #1F1D36;
+    }
+    50% {
+      background-color: #262442;
+    }
+    100% {
+      background-color: #1F1D36;
+    }
+}
+
+
+
 /* Nombre animado */
 .Name{
     display: block;
@@ -36,10 +51,23 @@ profecion{
 
 /* Imagen de perfil */
 .Prolife_picture img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
+    animation: animacionSombra 2s ease-in-out infinite;
+}
+
+@keyframes animacionSombra {
+    0% {
+      box-shadow: 0 0 20px 5px #3b3954;
+    }
+    50% {
+      box-shadow: 0 0 20px 5px #1F1D36;
+    }
+    100% {
+      box-shadow: 0 0 20px 5px #3b3954;
+    }
 }
 
 .Description p{
@@ -72,6 +100,10 @@ profecion{
     font-size: 30px;
 }
 
+Contact-link:hover{
+    box-shadow: 0 0 20px 5px #5c5a75;
+}
+
 .Contact p{
     font-size: 35px;
 }
@@ -79,8 +111,10 @@ profecion{
 .Contact-link{
     color: #c0c0c0eb;
 }
+
 .Contact-link:hover{
     color: #ffffff;
+    box-shadow: 10px 10px 10px withe;
 }
 
 @media screen and (max-width:550px) {
@@ -89,6 +123,10 @@ profecion{
     }
     .Name{
         font-size: 25px;
+    }
+    .Prolife_picture img{
+        width: 200px;
+        height: 200px;
     }
 }
 

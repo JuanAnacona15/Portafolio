@@ -1,7 +1,9 @@
+//Importamos los estilos
 import '../Styles/Cont1.css'
 
-
+//Definimos la función que se va a exportar 
 export function Presentation(){
+    //Retornamos el codigo html que va a mostrar la presenación y las habilidades
     return(
         <div className="Cont1" id='Presentacion'>
             <div className="presentacion">
@@ -18,6 +20,7 @@ export function Presentation(){
             <div className="Habilidades">
                 <b>Habilidades</b>
                 <div className='Cont_Habilidades'>
+                    {/* LLamamos a la funciñon habilidades */}
                     {habilidad("-Trabajo en equipo", "icon fa-solid fa-users")}
                     {habilidad("-Dedicación", "icon fa-solid fa-person-digging")}
                     {habilidad("-Aprendizaje rapido", "icon fa-solid fa-user-graduate")}
@@ -30,6 +33,9 @@ export function Presentation(){
     );
 }
 
+
+//Definimos la finción "Habilidad" Que va a retornar un componente de la clase habilidad
+//Parametros: Habilidad y icono
 function habilidad(texto, clase){
     return(
         <div className='Habilidad'>

@@ -1,3 +1,4 @@
+//Importamos la imagenes o iconos necesarios
 import '../Styles/Tools.css'
 import VS from '../Imagenes/VisualStudio.png'
 import Arduino from '../Imagenes/arduino.png'
@@ -12,11 +13,17 @@ import CSS from '../Imagenes/CSS.png'
 import HTML from '../Imagenes/HTML.png'
 import Blender from '../Imagenes/blender.png'
 
+
+//Definimos la funcion "Herramientas" que es la que se va a exportar 
 export function Herramientas(){
+    //Retornamos un codigo HTML
     return(
+        // Creamos el div que va a contener la seccion de "Herramientas"
         <div className='Herramientas'>
             <b>Herramientas de trabajo</b>
+            {/* //Creamos el contenedor para mostrar los iconos y el nombre de las herramientas */}
             <div className='mostrario'>
+                {/* Llamamos a la funcion herramienta para crear los componentes de las herramientas */}
                 <Herramienta texto="Visual Studio Code" imagen={VS}></Herramienta>
                 <Herramienta texto="Arduino" imagen={Arduino}></Herramienta>
                 <Herramienta texto="Blender" imagen={Blender}></Herramienta>
@@ -33,6 +40,9 @@ export function Herramientas(){
         </div>      
     );
 }
+/*Definimos la funcion que va a retornar un codigo html
+con la clase herramienta
+*/
 function Herramienta(props){
     return(
         <div className="Herramienta">

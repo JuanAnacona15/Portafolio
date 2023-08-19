@@ -1,5 +1,7 @@
+//Importamos los estilos
 import '../Styles/Menu.css'
 
+//Definimos la funcion que va a exportar el menú de la pagina
 export function Menu(){
     return(
         <div className='Menu'>

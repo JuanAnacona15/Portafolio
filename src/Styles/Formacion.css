@@ -11,6 +11,28 @@
     gap: 30px;
     transition: .8s;
 }
+
+.Curso:nth-child(2n+1) {
+    animation: ondaCurso 2s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.Curso:nth-child(3n+2), .Curso:nth-child(4){
+    animation: ondaCurso 2s ease-in-out infinite;
+}
+
+@keyframes ondaCurso {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.019);
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+
 .Descripcion{
     display: flex;
     flex-direction: column;
@@ -71,9 +93,20 @@
     }
     @media screen and (max-width:550px) {
     .Curso{
-        width: 80%;
+        width: 70%;
         height: auto;
     }
+    }
+    @keyframes ondaCurso {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.0019);
+        }
+        100% {
+            transform: scale(1)
+        }
     }
 }
 

@@ -1,14 +1,18 @@
+//Importamos los estilos
 import '../Styles/Formacion.css'
+//Importamos las imagenes necesarias
 import AU from '../Imagenes/AUD.png'
 import SENA from '../Imagenes/SENA.png'
 import IETI from '../Imagenes/Escudo IETI web.png'
 import GITI from '../Imagenes/GITI.png'
 
+//Definimos la funcion que va a exportar el componente que muestra la formación del desarrolador
 export function Formacion(){
     return(
         <div className='Cont' id='Formacion'>
             <b className='Formacion_tx'>Formación</b>
         <div className='Formacion'>
+            {/* Llamamos a la función "Curso" para mostrar el contenido y caracteristicas del curso */}
             <Curso 
             img={AU} nombre="Formacion Autodidacta" 
             Date="Diciembre 2022" 
@@ -49,6 +53,9 @@ export function Formacion(){
     
 }
 
+
+//Definimos la función "Curso que va a retornar un componente html con las caracteristicas que se definan en los props
+//Parametros: imagen del curso, nombre del curso, fecha del curso, descripcion del curso
 function Curso(props){
     return(
             <div className='Curso'>
