@@ -14,7 +14,7 @@ export function Formacion(){
         <div className='Formacion'>
             {/* Llamamos a la función "Curso" para mostrar el contenido y caracteristicas del curso */}
             <Curso 
-            img={AU} nombre="Formacion Autodidacta" 
+            img={AU} nombre="Formación Autodidacta" 
             Date="Diciembre 2022" 
                 Description="A lo largo del tiempo he estado aprendiendo varias tecnologías de desarrollo de 
                 software de forma autodidacta. En particular, he aprendido mucho sobre JavaScript, HTML y CSS, 
@@ -23,7 +23,7 @@ export function Formacion(){
                 así que siempre estoy buscando nuevas oportunidades para aprender más.">  
             </Curso>
             <Curso 
-            img={SENA} nombre="Programacion de aplicaciones y servicios para la nube" 
+            img={SENA} nombre="Programación de aplicaciones y servicios para la nube" 
             Date="Cursando" 
                 Description="En este curso del SENA, aprendemos cómo hacer proyectos con una correcta gestión de datos, 
                 recopilación, identificación de stakeholders, documentación y gestión de proyectos. Además, desarrollamos 
@@ -38,7 +38,7 @@ export function Formacion(){
                 de proyectos, documentacion y educacion en el campo laboral">  
             </Curso>
             <Curso img={GITI} 
-            nombre="Grupo de investigacion GITI" 
+            nombre="Grupo de investigación GITI" 
             Date="Cursando" 
                 Description="En el grupo de investigación GITI trabajamos temas de robótica, electrónica y cómo podemos 
                 fusionar estas dos para crear soluciones a diferentes problemáticas, ya sea en el ámbito social o ayudando 
